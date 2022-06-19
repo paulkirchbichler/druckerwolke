@@ -1,7 +1,7 @@
 # druckerwolke
 Druckerwolke is a PHP class for cloud printing PDF Documents using Druckerwolke.de
 
-'''php
+```php
 
 $username = 'XXX';
 $password = 'XXXXXXXXXX';
@@ -38,4 +38,4 @@ $data = [
 
 $result = $druckerwolke->add_document($data);
 
-'''
+```
