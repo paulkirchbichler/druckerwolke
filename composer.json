@@ -1,0 +1,14 @@
+{
+	"name": "kibi/druckerwolke",
+	"description": "Druckerwolke is a PHP class for cloud printing PDF Documents using Druckerwolke.de",
+	"type": "package",
+	"version": "1.0.0",
+	"license": "mit",
+	"minimum-stability": "dev",
+	"require": {},
+	"autoload": {
+        "classmap": [
+            "src/Druckerwolke.class.php"
+        ]
+	}
+}
