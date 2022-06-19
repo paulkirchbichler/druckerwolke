@@ -1,6 +1,21 @@
 # druckerwolke
 Druckerwolke is a PHP class for cloud printing PDF Documents using Druckerwolke.de
 
+## Installation 
+
+with [Composer](https://packagist.org/packages/kibi/druckerwolke)
+
+```composer require kibi/druckerwolke```
+
+
+via require (download current release manually)
+
+```php
+require_once('path/to/src/Druckerwolke.class.php');
+```
+
+## Sample usage
+
 ```php
 
 $username = 'XXX';
