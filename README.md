@@ -26,11 +26,11 @@ $druckerwolke = Druckerwolke($username, $password, $api_key);
 
 $printers = $druckerwolke->printers();
 
-//	SELECT THE PRINTER
+// SELECT THE PRINTER
 
 $printer_id = $printers[0]->Id; //we are using the first printer
 
-//	UPLOAD A FILE USING $file_content OR $file_url
+// UPLOAD A FILE USING $file_content OR $file_url
 
 $pdfName = 'document.pdf';
 $file_content = file_get_contents('path/to/document.pdf');
